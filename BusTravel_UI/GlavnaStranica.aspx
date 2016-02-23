@@ -57,8 +57,9 @@
             <span class="input-group-addon" id="basic-addon2">@example.com</span>
         </div>
         <div class="btn-group">
-            <asp:Button ID="Button1" runat="server" Text="Button" CssClass="btn btn-sampleRed" Height="71px" Width="125px"/>
+            <asp:Button ID="Button1" runat="server" Text="Button" CssClass="btn btn-sampleRed" Height="71px" Width="125px" OnClick="Button1_Click"/>
         </div>
+         
     </form>
 </body>
 </html>
